@@ -9,7 +9,7 @@ class Box extends Plane
   
  
   
-
+  float yspeed =2;
   float bx = px + 25;
   float by = py +25;
   float bw = 10;
@@ -29,7 +29,9 @@ class Box extends Plane
       if (by <= r)
       {
       bx += 1;
-      by +=4;
+      by +=yspeed;
+      yspeed += 0.163333;
+      
       }
     }
     

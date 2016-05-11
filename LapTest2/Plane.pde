@@ -15,7 +15,7 @@ Plane()
 
 void update()
 {
-   px++;
+   px+=2;
   
   if(px > width)
   {
